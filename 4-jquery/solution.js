@@ -10,5 +10,5 @@ jQuery(document).ready(function($) {
             $btn.text(newValue);
         })
     })
-    
+
 });
