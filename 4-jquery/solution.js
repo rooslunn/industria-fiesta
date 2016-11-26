@@ -2,7 +2,6 @@
  * Created by russ on 11/26/16.
  */
 jQuery(document).ready(function($) {
-    console.log('Ready');
 
     $('button').click(function (e) {
         $('button').each(function () {
@@ -11,4 +10,5 @@ jQuery(document).ready(function($) {
             $btn.text(newValue);
         })
     })
+    
 });
