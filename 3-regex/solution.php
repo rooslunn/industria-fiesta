@@ -7,6 +7,13 @@
  */
 
 /**
+ * Only CLI
+ */
+if (php_sapi_name() !== 'cli') {
+    exit("Program should be run from command line\n");
+}
+
+/**
  * Arrange
  */
 $basedir = '/datafiles/';
