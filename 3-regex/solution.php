@@ -42,5 +42,5 @@ natsort($files);
 /**
  * Print
  */
-$files = implode(PHP_EOL, $files);
-echo $files . PHP_EOL;
+$files = implode(PHP_EOL, $files) . PHP_EOL;
+echo $files;
